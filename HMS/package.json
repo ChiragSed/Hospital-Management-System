@@ -1,0 +1,13 @@
+{
+  "name": "lifeline-hms",
+  "version": "1.0.0",
+  "description": "Hospital Management System with Auto-Start Development Server",
+  "main": "index.php",
+  "scripts": {
+    "start": "start-server.bat",
+    "dev-sync": "browser-sync start --proxy \"localhost:8000\" --files \"**/*.php, **/*.css, **/*.js, **/*.html, config/**/*.php, includes/**/*.php\""
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.3"
+  }
+}
