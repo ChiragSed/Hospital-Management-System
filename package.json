@@ -1,0 +1,8 @@
+{
+  "name": "hospital-management-system",
+  "version": "1.0.0",
+  "description": "Hospital Management System",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r HMS/. dist"
+  }
+}
